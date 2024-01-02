@@ -1,0 +1,55 @@
+.satu {
+    display: flex;
+}
+
+.satusatu {
+    width: 250px;
+    height: 100px;
+    border: 2px solid;
+    background-color: #f1fa41;
+    margin: 10px;
+}
+
+.satudua {
+    width: 920px;
+    height: 100px;
+    border: 2px solid;
+    background-color: #eb6134;
+    margin: 10px;
+}
+
+.dua {
+    display: flex;
+}
+
+.duasatu {
+    width: 250px;
+    height: 390px;
+    border: 2px solid;
+    background-color: #8ade5f;
+    margin: 10px;
+}
+
+.duadua {
+    width: 650px;
+    height: 390px;
+    border: 2px solid;
+    background-color: #d3d6d2;
+    margin: 10px;
+}
+
+.duatiga {
+    width: 250px;
+    height: 390px;
+    border: 2px solid;
+    background-color: #0aecfc;
+    margin: 10px;
+}
+
+.tiga {
+    width: 1200px;
+    height: 100px;
+    border: 2px solid;
+    background-color: #0531e3;
+    margin: 10px;
+}

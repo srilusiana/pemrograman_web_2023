@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurs Rupiah - Mata Uang Asing</title>
+  <script src="kurs.js"></script>
+</head>
+<body>
+
+    <fieldset style="width: 50%; margin: 200px 300px; background-color: rgb(160, 220, 252);">
+        <legend>Kurs Rupiah - Mata Uang Asing</legend>
+        <div style="display: flex; border: 1px solid; background-color: rgb(93, 188, 243);">
+            <div style="margin: 20px; text-align: center;">
+                <label for="">Masukkan Nilai:</label>
+                <br>
+                <input type="number" id="nilai">
+            </div>
+            <div style="margin: 20px; text-align: center;">
+                <label for="">Valas</label>
+                <br>
+                <select id="valas" onchange="hitungNilai()">
+                    <option value="USD">US Dollar (USD)</option>
+                    <option value="SGD">Singapore Dollar (SGD)</option>
+                    <option value="MYR">Malaysian Ringgit (MYR)</option>
+                    <option value="JPY">Japanese Yen (JPY)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="SAR">Saudi Riyal (SAR)</option>
+                </select>
+            </div>
+            <div style="margin: 20px; text-align: center;">
+                <div>Nilai Rupiah: </div>
+                <div id="hasilKonversi" style="width: 150px; height: 20px; border: 1px solid; border-radius: 2px; background-color: white;"></div>
+            </div>
+        </div>
+    </fieldset>
+    
+</body>
+</html>

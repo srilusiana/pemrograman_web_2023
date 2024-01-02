@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penjumlahan Bilangan</title>
+</head>
+<body>
+  <h2>Penjumlahan Bilangan</h2>
+
+  <label for="bilangan1">Bilangan 1:</label>
+  <input type="number" id="bilangan1" onChange="hitungJumlah()">
+
+  <label for="bilangan2">Bilangan 2:</label>
+  <input type="number" id="bilangan2" onChange="hitungJumlah()">
+
+  <p>Hasil Penjumlahan: <span  id="hasilPenjumlahan">0</span></p>
+
+  <script>
+    function hitungJumlah() {
+      let bilangan1 = parseFloat(document.getElementById("bilangan1").value) | 0;
+      let bilangan2 = parseFloat(document.getElementById("bilangan2").value) | 0;
+
+      let jumlah = bilangan1 + bilangan2;
+
+      document.getElementById("hasilPenjumlahan").innerText = jumlah;
+    }
+  </script>
+</body>
+</html>

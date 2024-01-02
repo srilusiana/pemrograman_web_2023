@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+</head>
+<body style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 500px; margin: 0;">
+
+    <label for="" style="margin-bottom: 10px;">Pilih Gambar:</label>
+    <select id="listGambar" onchange="displayGambar()" style="padding: 10px; margin-bottom: 20px;">
+        <option value="" disabled selected>Pilih Gambar</option>
+        <option value="Gambar1.jpg">Gambar 1</option>
+        <option value="Gambar2.jpg">Gambar 2</option>
+        <option value="Gambar3.jpg">Gambar 3</option>
+        <option value="Gambar4.jpg">Gambar 4</option>
+        <option value="Gambar5.jpg">Gambar 5</option>
+    </select>
+
+    <div class="Gambar-container" style="text-align: center;">
+        <img id="gambar" src="" alt="gambar" style="max-width: 50%; height: auto; margin-top: 20px; border: 1px solid #ddd; border-radius: 5px;">
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="login.js" defer></script>
+</head>
+<body>
+  
+  <div class="container" style="background-color: whitesmoke; width: 500px; margin-top: 200px; margin-left: 390px;">
+    <div class="form" style="padding: 30px;">
+      <h3 style="text-align: center;">Login User</h3>    
+        <form id="loginForm">
+          <div style="margin-left: 130px;">
+            <label for="username"></label>
+            <input id="username" name="text" placeholder="Email or Username" type="text" required="required" class="form-control">
+          </div> 
+          <br>
+          <div style="margin-left: 130px;">
+            <label for="password"></label>              
+            <input id="password" name="Password" placeholder="Password" type="password" class="form-control"> 
+          </div>
+          <br>
+            <button type="button" onclick="login()" style="color: white; background-color: #3498db; border: 1px solid #3498db; border-radius: 2px; margin-left: 130px;">Login</button>
+        </form>
+    </div>
+  </div>  
+</body>
+</html>

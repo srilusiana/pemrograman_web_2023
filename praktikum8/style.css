@@ -1,0 +1,27 @@
+img {
+    width: 10%;
+}
+
+nav {
+    background-color: aqua;  
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 25px;
+}
+
+nav li.about {
+    margin-left: auto;
+}
+
+nav li {
+    padding-left: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,42 @@
+body {
+    display: flex;
+}
+
+.one {
+    width: 250px;
+    height: 600px;
+    border: 2px solid;
+    background-color: #f1fa41;
+    margin: 25px;
+    border-style: dotted;
+    border-color: blue;
+}
+
+.two {
+    width: 250px;
+    height: 600px;
+    border: 2px solid;
+    background-color: #eb6134;
+    margin: 25px;
+}
+
+.three {
+    width: 250px;
+    height: 600px;
+    border: 2px solid;
+    background-color: #8ade5f;
+    margin: 25px;
+}
+
+.four {
+    width: 250px;
+    height: 600px;
+    border: 2px solid;
+    background-color: #0aecfc;
+    margin: 25px;
+}
+
+img {
+    width: 250px;
+    height: 175px;
+}

@@ -1,0 +1,47 @@
+.satu {
+    width: 1200px;
+    height: 150px;
+    border: 2px solid;
+    background-color: #8ade5f;
+    margin: 15px;
+}
+
+.dua {
+    display: flex;
+}
+
+.duasatu {
+    width: 250px;
+    height: 200px;
+    border: 2px solid;
+    background-color: #f1fa41;
+    margin: 15px;
+}
+
+.duadua {
+    width: 910px;
+    height: 200px;
+    border: 2px solid;
+    background-color: #eb6134;
+    margin: 15px;
+}
+
+.tiga {
+    display: flex;
+}
+
+.tigasatu {
+    width: 250px;
+    height: 200px;
+    border: 2px solid;
+    background-color: #f1fa41;
+    margin: 15px;
+}
+
+.tigadua {
+    width: 910px;
+    height: 200px;
+    border: 2px solid;
+    background-color: #0aecfc;
+    margin: 15px;
+}
